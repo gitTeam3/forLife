@@ -1,4 +1,4 @@
-package com.gitTeam3.forLife.appProject;
+package com.gitTeam3.forLife.pswMonitor;
 
 import android.app.Activity;
 import android.os.Bundle;
