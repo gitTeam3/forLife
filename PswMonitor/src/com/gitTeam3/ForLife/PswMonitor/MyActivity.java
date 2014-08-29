@@ -1,4 +1,4 @@
-package com.example.PswMonitor;
+package com.gitTeam3.ForLife.PswMonitor;
 
 import android.app.Activity;
 import android.os.Bundle;
