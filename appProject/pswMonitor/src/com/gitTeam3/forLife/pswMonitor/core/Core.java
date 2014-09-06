@@ -1,38 +1,53 @@
 package com.gitTeam3.forLife.pswMonitor.core;
 
-public class Core
-{
-	private final long defaultSeed=8023;//默认的密码种子
-	private long pswSeed;//密码种子
-	
-	
-	public Core(){
-		
-		this.pswSeed=defaultSeed;
-	}
-	
-	public Core(long seed){
-		this.pswSeed=seed;
-	}
-	/**
-	 *返回默认长度的密码
-	 */
-	public String getPsw(){
-		
-		return null;
-	}
-	/**
-	 *根据lengt返回定长的纯数字密码
-	 */
-	public String getPsw(int length){
+import org.junit.Test;
 
-		return null;
-	}
-	/**
-	 *返回长度为length包含letterLength个字母的混合密码
-	 */
-	public String getPsw(int length,int letterLength){
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
 
-		return null;
-	}
+/**
+ * Author: zihao
+ * Summary: This class is encryption's core
+ * Date: 14-9-6
+ */
+public class Core {
+
+    private String memoryable;
+    public Core(String memoryable){
+        this.memoryable = memoryable;
+    }
+    public String getEncriptedNumber(){
+
+
+        return null;
+    }
+    public String getEncriptedLetter(){
+
+        return null;
+    }
+
+    public String getMemoryable() {
+        return memoryable;
+    }
+
+    public void setMemoryable(String memoryable) {
+        this.memoryable = memoryable;
+    }
+     public byte[] encrypt(String inStr){
+        MessageDigest md = null;
+        try {
+            md = MessageDigest.getInstance("SHA-1");
+        } catch (NoSuchAlgorithmException e) {
+            e.printStackTrace();
+        }
+        byte bytes[] = md.digest(inStr.getBytes());
+        System.out.println(bytes.length);
+        /*for(byte b:bytes){
+            System.out.println((char) b);
+        }*/
+        return bytes;
+    }
+
+
+
 }
