@@ -21,7 +21,7 @@ public class MyActivity extends Activity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
-        startCustomService();//test
+        startCustomService();//test2
     }
     public class myview extends LinearLayout
     {
