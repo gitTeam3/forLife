@@ -20,7 +20,7 @@ public class Core {
         for(int i =inStr.getBytes()[0];i<inStr.getBytes()[0]+100;i++) {
             int temp[] = SHA1.getAfterSHA1(inStr+i);
             for (int aTemp : temp) {
-                bins[counter] = (byte) (aTemp%2);
+                bins[counter] = (byte) (aTemp%2);//ÆæÊýÌî£±Å¼ÊýÌî£°
                 counter++;
             }
         }
