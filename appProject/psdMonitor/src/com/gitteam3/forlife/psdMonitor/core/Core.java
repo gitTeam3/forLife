@@ -8,9 +8,18 @@ package com.gitteam3.forlife.psdMonitor.core;
 public class Core {
 
 
-    public String[] getBinStr(String memoryable){
+    public int[] getDecimal(String memoryable){
 
-        return divide(uk(memoryable),6);
+        Translator t = new Translator(divide(uk(memoryable),3));
+
+        return t.binToDecimal();
+    }
+
+    public String[] getLetter(String memoryable){
+
+        Translator t = new Translator(divide(uk(memoryable),6));
+
+        return t.binToChar();
     }
 
     private static byte[] uk(String inStr){

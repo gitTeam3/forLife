@@ -12,8 +12,9 @@ import org.junit.Test;
 public class Translator_Test {
     @Test
     public void test_binToDecimal(){
-        String[] b = new Core().getBinStr("z45fuh85");
-        Translator.binToDecimal(b);
+        /*int[] b = new Core().getDecimal("@y15ewp,tj");
+        Translator t = new Translator(b);
+        t.binToDecimal();*/
     }
 
 }
