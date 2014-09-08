@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ae07b7b0-16ee-476d-ad89-58d6b6b71e83" name="Default" comment="">
+    <list default="true" id="ae07b7b0-16ee-476d-ad89-58d6b6b71e83" name="Default" comment="add a class that is Translator.java&#10;noting">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="appProject.iws" />
@@ -614,7 +614,7 @@
       <changelist id="ae07b7b0-16ee-476d-ad89-58d6b6b71e83" name="Default" comment="" />
       <created>1410145926760</created>
       <updated>1410145926760</updated>
-      <workItem from="1410178454781" duration="6638000" />
+      <workItem from="1410178454781" duration="6658000" />
     </task>
     <task id="LOCAL-00001" summary="add a class that is Translator.java&#10;">
       <created>1410179679645</created>
@@ -624,11 +624,15 @@
       <created>1410186066461</created>
       <updated>1410186066462</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add a class that is Translator.java&#10;noting">
+      <created>1410186665869</created>
+      <updated>1410186665869</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6638000" />
+    <option name="totallyTimeSpent" value="6658000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-4" width="1920" height="1084" extended-state="6" />
@@ -680,7 +684,8 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="add a class that is Translator.java&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="add a class that is Translator.java&#10;" />
+    <MESSAGE value="add a class that is Translator.java&#10;noting" />
+    <option name="LAST_COMMIT_MESSAGE" value="add a class that is Translator.java&#10;noting" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
