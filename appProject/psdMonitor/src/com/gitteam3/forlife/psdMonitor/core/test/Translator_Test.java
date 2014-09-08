@@ -1,0 +1,19 @@
+package com.gitteam3.forlife.psdMonitor.core.test;
+
+import com.gitteam3.forlife.psdMonitor.core.Core;
+import com.gitteam3.forlife.psdMonitor.core.Translator;
+import org.junit.Test;
+
+/**
+ * Author: zihao
+ * Summary:
+ * Date: 14-9-8
+ */
+public class Translator_Test {
+    @Test
+    public void test_binToDecimal(){
+        String[] b = new Core().getBinStr("z45fuh85");
+        Translator.binToDecimal(b);
+    }
+
+}
