@@ -7,9 +7,9 @@ package com.gitteam3.forlife.psdMonitor.core;
 import java.math.*;
 public class PI {
 
-    private BigDecimal result;//最终的计算结果
+    private  BigDecimal result;//最终的计算结果
 
-    public void run(int n, int scale) {
+    public  void run(int n, int scale) {
 
         BigDecimal upper = new BigDecimal(426880.0000 * Math.sqrt(10005.0000));
         upper = upper.setScale(scale, BigDecimal.ROUND_HALF_EVEN);
