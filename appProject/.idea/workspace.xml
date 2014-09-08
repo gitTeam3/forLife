@@ -21,7 +21,10 @@
     <option name="TOOL_WINDOW_CUSTOM_FILTER" value="info" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a91f6462-811d-47db-99db-1a584a7893aa" name="Default" comment="" />
+    <list default="true" id="a91f6462-811d-47db-99db-1a584a7893aa" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pswMonitor/src/com/gitTeam3/forLife/pswMonitor/ui/MyActivity.java" afterPath="$PROJECT_DIR$/pswMonitor/src/com/gitTeam3/forLife/pswMonitor/ui/MyActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="appProject.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -87,7 +90,7 @@
       <file leaf-file-name="MyActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pswMonitor/src/com/gitTeam3/forLife/pswMonitor/ui/MyActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="28" selection-start="422" selection-end="422" vertical-scroll-proportion="0.72048193" vertical-offset="0" max-vertical-offset="1242">
+            <state line="23" column="35" selection-start="719" selection-end="719" vertical-scroll-proportion="0.55421686" vertical-offset="299" max-vertical-offset="1242">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -98,7 +101,7 @@
       <file leaf-file-name="floatService.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pswMonitor/src/com/gitTeam3/forLife/pswMonitor/service/floatService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="70" column="9" selection-start="2113" selection-end="2113" vertical-scroll-proportion="0.0" vertical-offset="1150" max-vertical-offset="2162">
+            <state line="70" column="9" selection-start="2113" selection-end="2113" vertical-scroll-proportion="0.0" vertical-offset="1610" max-vertical-offset="2162">
               <folding />
             </state>
           </provider>
@@ -129,6 +132,9 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
@@ -145,7 +151,7 @@
     <option name="width" value="1382" />
     <option name="height" value="784" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -176,7 +182,7 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -212,26 +218,8 @@
               <option name="myItemId" value="pswMonitor" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="appProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pswMonitor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pswMonitor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="service" />
+              <option name="myItemId" value="ui" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -250,48 +238,12 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="pswMonitor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="loger" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="appProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pswMonitor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="appProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pswMonitor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layout" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -302,8 +254,8 @@
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../000otherProject/life" />
-    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.Font" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
@@ -498,7 +450,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -509,13 +461,13 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32890856" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32890856" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -548,6 +500,66 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pswMonitor/src/com/gitTeam3/forLife/pswMonitor/ui/MyActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="0" selection-start="423" selection-end="423" vertical-scroll-proportion="0.0" vertical-offset="299" max-vertical-offset="1242">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pswMonitor/src/com/gitTeam3/forLife/pswMonitor/service/floatService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="70" column="9" selection-start="2113" selection-end="2113" vertical-scroll-proportion="0.0" vertical-offset="1610" max-vertical-offset="2162">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pswMonitor/src/com/gitTeam3/forLife/pswMonitor/loger/logName.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="1" selection-start="196" selection-end="196" vertical-scroll-proportion="0.0" vertical-offset="207" max-vertical-offset="368">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pswMonitor/src/com/gitTeam3/forLife/pswMonitor/core/Core.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="35" selection-start="327" selection-end="327" vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="1357">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pswMonitor/src/com/gitTeam3/forLife/pswMonitor/ui/MyActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="28" selection-start="422" selection-end="422" vertical-scroll-proportion="0.0" vertical-offset="299" max-vertical-offset="1242">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pswMonitor/src/com/gitTeam3/forLife/pswMonitor/service/floatService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="70" column="9" selection-start="2113" selection-end="2113" vertical-scroll-proportion="0.0" vertical-offset="1610" max-vertical-offset="2162">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pswMonitor/src/com/gitTeam3/forLife/pswMonitor/loger/logName.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="1" selection-start="196" selection-end="196" vertical-scroll-proportion="0.0" vertical-offset="207" max-vertical-offset="368">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pswMonitor/src/com/gitTeam3/forLife/pswMonitor/core/Core.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="35" selection-start="327" selection-end="327" vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="1357">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pswMonitor/src/com/gitTeam3/forLife/pswMonitor/ui/MyActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="42" column="40" selection-start="1360" selection-end="1360" vertical-scroll-proportion="0.0" vertical-offset="966" max-vertical-offset="989">
@@ -618,9 +630,7 @@
         <state />
       </provider>
       <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="361">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="361" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pswMonitor/src/com/gitTeam3/forLife/pswMonitor/loger/Log.java">
@@ -654,9 +664,7 @@
     </entry>
     <entry file="file://D:/android-sdk-windows/sources/android-14/android/widget/TextView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="225" column="13" selection-start="9252" selection-end="9252" vertical-scroll-proportion="0.3322884" vertical-offset="1651" max-vertical-offset="259946">
-          <folding />
-        </state>
+        <state line="225" column="13" selection-start="9252" selection-end="9252" vertical-scroll-proportion="0.3322884" vertical-offset="1651" max-vertical-offset="259946" />
       </provider>
     </entry>
     <entry file="file://D:/android-sdk-windows/sources/android-14/android/widget/Button.java">
@@ -680,9 +688,7 @@
     </entry>
     <entry file="file://D:/android-sdk-windows/sources/android-14/android/view/View.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="630" column="13" selection-start="26829" selection-end="26829" vertical-scroll-proportion="0.3325301" vertical-offset="12535" max-vertical-offset="337686">
-          <folding />
-        </state>
+        <state line="630" column="13" selection-start="26829" selection-end="26829" vertical-scroll-proportion="0.3325301" vertical-offset="12535" max-vertical-offset="337686" />
       </provider>
     </entry>
     <entry file="file://D:/android-sdk-windows/sources/android-14/java/io/Serializable.java">
@@ -704,7 +710,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pswMonitor/src/com/gitTeam3/forLife/pswMonitor/ui/MyActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="28" selection-start="422" selection-end="422" vertical-scroll-proportion="0.72048193" vertical-offset="0" max-vertical-offset="1242">
+        <state line="23" column="35" selection-start="719" selection-end="719" vertical-scroll-proportion="0.55421686" vertical-offset="299" max-vertical-offset="1242">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
