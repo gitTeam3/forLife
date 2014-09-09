@@ -3,9 +3,10 @@ package com.gitteam3.forlife.psdMonitor.core.test;
 import com.gitteam3.forlife.psdMonitor.core.Core;
 import org.junit.Test;
 
+
 /**
  * Author: zihao
- * Summary:Core.java µÄ²âÊÔÀà
+ * Summary:Core.java ï¿½Ä²ï¿½ï¿½ï¿½ï¿½ï¿½
  * Date: 14-9-8
  */
 public class Core_test {

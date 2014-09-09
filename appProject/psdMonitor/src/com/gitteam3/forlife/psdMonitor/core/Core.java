@@ -24,12 +24,12 @@ public class Core {
 
     private static byte[] uk(String inStr){
 
-        byte bins[] = new byte[1000];//ÓÃÓÚ´æ·Å¶þ½øÖÆÂëµÄ×Ö½ÚÊý×é
-        int counter = 0;//¼ÇÂ¼£â£é£î£óÊý×éµÄÏÂ±ê
+        byte bins[] = new byte[1000];//ï¿½ï¿½ï¿½Ú´ï¿½Å¶ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö½ï¿½ï¿½ï¿½ï¿½ï¿½
+        int counter = 0;//ï¿½ï¿½Â¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Â±ï¿½
         for(int i =inStr.getBytes()[0];i<inStr.getBytes()[0]+100;i++) {
             int temp[] = SHA1.getAfterSHA1(inStr+i);
             for (int aTemp : temp) {
-                bins[counter] = (byte) (aTemp%2);//ÆæÊýÌî£±Å¼ÊýÌî£°
+                bins[counter] = (byte) (aTemp%2);//ï¿½ï¿½ï¿½ï¿½ï¿½î£±Å¼ï¿½ï¿½ï¿½î£°
                 counter++;
             }
         }
@@ -38,8 +38,8 @@ public class Core {
 
     /**
      *
-     * @param bytes ÐèÒª±»»®·ÖµÄ×Ö½ÚÊý×é
-     * @param grop¡¡°´¶àÉÙÎ»»®·ÖÒ»×é
+     * @param bytes ï¿½ï¿½Òªï¿½ï¿½ï¿½ï¿½ï¿½Öµï¿½ï¿½Ö½ï¿½ï¿½ï¿½ï¿½ï¿½
+     * @param gropï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Î»ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½
      *
      */
     private String[] divide(byte[] bytes,int grop){
@@ -57,6 +57,4 @@ public class Core {
         }
         return results;
     }
-
-
 }
