@@ -12,10 +12,10 @@ import org.junit.Test;
 public class Core_test {
     @Test
     public void testGetDecimal(){
-        int[] b = new Core().getDecimal("zfbzh5");
+        /*int[] b = new Core().getDecimal("zfbzh5");
         System.out.println("bins.length="+b.length);
         for(int bb:b)
-            System.out.println(bb);
+            System.out.println(bb);*/
 
         /*String str = new BigDecimal(3.141592665).;
         System.out.println(str);
@@ -27,9 +27,9 @@ public class Core_test {
 
     @Test
     public void testGetLetter() {
-        String[] b = new Core().getLetter("g518zh5");
+       /* String[] b = new Core().getLetter("g518zh5");
         System.out.println("bins.length=" + b.length);
         for (String bb : b)
-            System.out.println(bb);
+            System.out.println(bb);*/
     }
 }
