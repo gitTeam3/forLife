@@ -7,7 +7,6 @@ package com.gitteam3.forlife.psdMonitor.core;
  */
 public class Core {
 
-
     public int[] getDecimal(String memoryable){
 
         Translator t = new Translator(divide(uk(memoryable),3));
