@@ -1,13 +1,13 @@
-package com.gitteam3.forlife.psdMonitor.core;
+package com.gitteam3.forlife.psdMonitor.encryptionCore;
 /**
  * Author: zihao
- * Summary:ÓÃÓÚ¼ÆËã£Ð£ÉµÄÖµ
+ * Summary:ï¿½ï¿½ï¿½Ú¼ï¿½ï¿½ï¿½Ð£Éµï¿½Öµ
  * Date: 14-9-8
  */
 import java.math.*;
 public class PI {
 
-    private  BigDecimal result;//×îÖÕµÄ¼ÆËã½á¹û
+    private  BigDecimal result;//ï¿½ï¿½ï¿½ÕµÄ¼ï¿½ï¿½ï¿½ï¿½ï¿½
 
     public  void run(int n, int scale) {
 

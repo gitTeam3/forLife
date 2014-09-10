@@ -1,27 +1,27 @@
-package com.gitteam3.forlife.psdMonitor.core;
+package com.gitteam3.forlife.psdMonitor.encryptionCore;
 
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 
 /**
  * Author: zihao
- * Summary:Ëã³ö¸ø¶¨×Ö·û´®µÄ£Ó£È£Á£±Öµ
+ * Summary: SHA-1åŠ å¯†å·¥å…·
  * Date: 14-9-6
  */
 public class SHA1 {
 
     public static int[] getAfterSHA1(String inStr){
-        int outBytes[] = null;//×îÖÕÏòÍâÊä³öµÄ×Ö½ÚÊý×é
-        MessageDigest md = null;//»ñÈ¡¼ÓÃÜ¶ÔÏó²¢Ö¸¶¨ÊÇ£Ó£È£Á£±Ëã·¨
+        int outBytes[] = null;//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö½ï¿½ï¿½ï¿½ï¿½ï¿½
+        MessageDigest md = null;//ï¿½ï¿½È¡ï¿½ï¿½ï¿½Ü¶ï¿½ï¿½ï¿½Ö¸ï¿½ï¿½ï¿½Ç£Ó£È£ï¿½ï¿½ï¿½ï¿½ã·¨
         try {
             md = MessageDigest.getInstance("SHA-1");
-            byte digests[] = md.digest(inStr.getBytes());//»ñµÃ¼ÓÃÜºóµÄÖµ
+            byte digests[] = md.digest(inStr.getBytes());//ï¿½ï¿½Ã¼ï¿½ï¿½Üºï¿½ï¿½Öµ
             outBytes = new int[(int)digests.length/2];
             int pointer_L =0;
             int pointer_R =digests.length-1;
 
             while(pointer_R - pointer_L >= 0){
-                outBytes[pointer_L] = Math.abs( digests[pointer_L] )*Math.abs( digests[pointer_R] );//ÎªÁËÊ¹Ã¿¸öÊý¾ÝµÄÖµ±ä´ó
+                outBytes[pointer_L] = Math.abs( digests[pointer_L] )*Math.abs( digests[pointer_R] );//Îªï¿½ï¿½Ê¹Ã¿ï¿½ï¿½ï¿½ï¿½Ýµï¿½Öµï¿½ï¿½ï¿½
                 pointer_L++;
                 pointer_R--;
 

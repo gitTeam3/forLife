@@ -1,6 +1,6 @@
-package com.gitteam3.forlife.psdMonitor.core.test;
+package com.gitteam3.forlife.psdMonitor.encryptionCore.test;
 
-import com.gitteam3.forlife.psdMonitor.core.SHA1;
+import com.gitteam3.forlife.psdMonitor.encryptionCore.SHA1;
 import org.junit.Test;
 
 import java.security.NoSuchAlgorithmException;

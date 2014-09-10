@@ -1,17 +1,21 @@
-package com.gitteam3.forlife.psdMonitor.core;
+package com.gitteam3.forlife.psdMonitor.encryptionCore;
 
 import java.util.Map;
 import java.util.TreeMap;
 
 /**
  * Author: zihao
- * Summary:
+ * Summary:　字符映射表类
  * Date: 14-9-8
  */
 public class LetterMap {
 
     private LetterMap instance = new LetterMap();
-    private static TreeMap<Integer,String> map = new TreeMap();
+    private static TreeMap map = new TreeMap();
+
+    /**
+     * 以下代码只用被加载一次所以放在静态代码块中
+     */
     static{
         map.put(Integer.valueOf(1),"E");
         map.put(Integer.valueOf(2),"T");

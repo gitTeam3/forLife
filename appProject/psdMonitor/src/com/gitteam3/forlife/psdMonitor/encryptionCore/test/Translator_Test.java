@@ -1,7 +1,5 @@
-package com.gitteam3.forlife.psdMonitor.core.test;
+package com.gitteam3.forlife.psdMonitor.encryptionCore.test;
 
-import com.gitteam3.forlife.psdMonitor.core.Core;
-import com.gitteam3.forlife.psdMonitor.core.Translator;
 import org.junit.Test;
 
 /**
