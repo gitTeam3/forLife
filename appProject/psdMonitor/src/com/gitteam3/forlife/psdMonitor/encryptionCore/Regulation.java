@@ -7,6 +7,8 @@ package com.gitteam3.forlife.psdMonitor.encryptionCore;
  */
 public class Regulation {
 
+    private String memoryable = null;
+    private int iteration = 0;//迭代次数默认不迭代
     private int length = 6;//默认密码总长度为６
     private int letter = 0;//默认生成的密码不含字母
     private String pswSeek ="";//密码种子　默认为空
@@ -18,6 +20,23 @@ public class Regulation {
         this.letter = letter;
         this.pswSeek = pswSeek;
     }
+
+    public String getMemoryable() {
+        return memoryable;
+    }
+
+    public void setMemoryable(String memoryable) {
+        this.memoryable = memoryable;
+    }
+
+    public int getIteration() {
+        return iteration;
+    }
+
+    public void setIteration(int iteration) {
+        this.iteration = iteration;
+    }
+
     public String getPswSeek() {
         return pswSeek;
     }

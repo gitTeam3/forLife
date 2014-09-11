@@ -1,5 +1,6 @@
 package com.gitteam3.forlife.psdMonitor.encryptionCore;
 
+import com.gitteam3.forlife.psdMonitor.encryptionCore.exception.InStrNullException;
 import com.gitteam3.forlife.psdMonitor.encryptionCore.tools.PI;
 import com.gitteam3.forlife.psdMonitor.encryptionCore.tools.PswSource;
 
@@ -11,5 +12,5 @@ import com.gitteam3.forlife.psdMonitor.encryptionCore.tools.PswSource;
 public interface PswMakerInterface {
     public Regulation getReg();
     public void setReg(Regulation reg);
-    public String produce();
+    public String produce() throws Exception;
 }
