@@ -23,8 +23,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ae07b7b0-16ee-476d-ad89-58d6b6b71e83" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/psdMonitor/src/com/gitteam3/forlife/psdMonitor/encryptionCore/BasicPswMaker.java" afterPath="$PROJECT_DIR$/psdMonitor/src/com/gitteam3/forlife/psdMonitor/encryptionCore/BasicPswMaker.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/psdMonitor/src/com/gitteam3/forlife/psdMonitor/encryptionCore/PswMakerInterface.java" afterPath="$PROJECT_DIR$/psdMonitor/src/com/gitteam3/forlife/psdMonitor/encryptionCore/PswMakerInterface.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/psdMonitor/src/com/gitteam3/forlife/psdMonitor/encryptionCore/Regulation.java" afterPath="$PROJECT_DIR$/psdMonitor/src/com/gitteam3/forlife/psdMonitor/encryptionCore/Regulation.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="appProject.iws" />
@@ -101,8 +99,8 @@
       <file leaf-file-name="BasicPswMaker.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/psdMonitor/src/com/gitteam3/forlife/psdMonitor/encryptionCore/BasicPswMaker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6895028" vertical-offset="1040" max-vertical-offset="3432">
-              <caret line="34" column="33" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="33" />
+            <state vertical-scroll-proportion="0.67542505" vertical-offset="2735" max-vertical-offset="3952">
+              <caret line="63" column="22" selection-start-line="63" selection-start-column="22" selection-end-line="63" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#406#407#0" expanded="true" />
@@ -766,7 +764,7 @@
       <workItem from="1410261871086" duration="1288000" />
       <workItem from="1410329238154" duration="17019000" />
       <workItem from="1410413461804" duration="4369000" />
-      <workItem from="1410418040431" duration="2422000" />
+      <workItem from="1410418040431" duration="4195000" />
     </task>
     <task id="LOCAL-00001" summary="add a class that is Translator.java&#10;">
       <created>1410179679645</created>
@@ -816,11 +814,15 @@
       <created>1410418474383</created>
       <updated>1410418474383</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="added to class thats PswMaker.java and Regulation.java">
+      <created>1410420474316</created>
+      <updated>1410420474316</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31756000" />
+    <option name="totallyTimeSpent" value="33529000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="28" width="1920" height="1052" extended-state="6" />
@@ -848,7 +850,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24973261" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27157894" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27157894" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1147,8 +1149,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/psdMonitor/src/com/gitteam3/forlife/psdMonitor/encryptionCore/BasicPswMaker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6895028" vertical-offset="1040" max-vertical-offset="3432">
-          <caret line="34" column="33" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="33" />
+        <state vertical-scroll-proportion="0.67542505" vertical-offset="2735" max-vertical-offset="3952">
+          <caret line="63" column="22" selection-start-line="63" selection-start-column="22" selection-end-line="63" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#406#407#0" expanded="true" />

@@ -33,30 +33,40 @@ public class BasicPswMaker implements PswMakerInterface {
         String[] letters;
         numbers = ps.getDecimal();
         letters = ps.getLetter();
-        psw = merge(getNumbers(numbers),getLetters(letters));
+        psw = merge(getNumbers(numbers,(reg.getLength()-reg.getLetter())),getLetters(letters,reg.getLetter()));
 
         for(int i = 1;i<=reg.getIteration();i++){
             ps.setMemoryable(psw+reg.getPswSeek());
             numbers = ps.getDecimal();
             letters = ps.getLetter();
-            psw = merge(getNumbers(numbers),getLetters(letters));
-        }
+            psw = merge(getNumbers(numbers,(reg.getLength()-reg.getLetter())),getLetters(letters,reg.getLetter()));        }
 
         return psw;
     }
 
-    private String[] getNumbers(int[] decimals){
+    private String[] getNumbers(int[] decimals,int len){
 
-        return null;
+        String[] numbers = new String[len];
+        int start = Integer.parseInt(decimals[0]+""+decimals[1]);
+        for(int i = 0;i<len;i++){
+            numbers[i] = String.valueOf(decimals[start+i]);
+        }
+        return numbers;
     }
 
-    private String[] getLetters(String[] letters){
+    private String[] getLetters(String[] str_letter,int len){
 
-        return null;
+        String[] letters = new String[len];
+        int start = str_letter[0].getBytes()[0];
+        for(int i = 0;i<len;i++){
+            letters[i] = str_letter[start+1];
+        }
+        return letters;
     }
 
     private String merge(String[] nums,String[] letters){
 
         return null;
     }
+
 }
