@@ -1,4 +1,4 @@
-package com.gitteam3.forlife.psdMonitor.encryptionCore;
+package com.gitteam3.forlife.psdMonitor.encryptionCore.tools;
 
 import java.util.Map;
 import java.util.TreeMap;
@@ -8,7 +8,7 @@ import java.util.TreeMap;
  * Summary:　字符映射表类
  * Date: 14-9-8
  */
-public class LetterMap {
+class LetterMap {
 
     private LetterMap instance = new LetterMap();
     private static TreeMap map = new TreeMap();

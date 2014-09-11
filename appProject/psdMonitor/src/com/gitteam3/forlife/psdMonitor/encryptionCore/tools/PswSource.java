@@ -1,5 +1,4 @@
-package com.gitteam3.forlife.psdMonitor.encryptionCore;
-
+package com.gitteam3.forlife.psdMonitor.encryptionCore.tools;
 import com.gitteam3.forlife.psdMonitor.encryptionCore.exception.InStrNullException;
 
 /**
@@ -7,10 +6,11 @@ import com.gitteam3.forlife.psdMonitor.encryptionCore.exception.InStrNullExcepti
  * Summary:　本类将一个任意字符串转换为一个ｉｎｔ数组和Ｓｔｒｉｎｇ数组
  * Date: 14-9-8
  */
-public class Core {
+public class PswSource {
 
     private String memoryable = "";
-    public Core(String memoryable){
+    public PswSource(){}
+    public PswSource(String memoryable){
         this.memoryable = memoryable;
     }
 
@@ -21,9 +21,9 @@ public class Core {
      */
     public int[] getDecimal() throws InStrNullException {
 
-        Translator t;
+        Converter t;
         if(memoryable.length()>0) {
-            t = new Translator(divide(getBins(memoryable), 3));
+            t = new Converter(divide(getBins(memoryable), 3));
         }
         else{
             throw new InStrNullException();
@@ -38,9 +38,9 @@ public class Core {
      */
     public String[] getLetter() throws InStrNullException {
 
-        Translator t;
+        Converter t;
         if(memoryable.length()>0) {
-            t = new Translator(divide(getBins(memoryable), 6));
+            t = new Converter(divide(getBins(memoryable), 6));
         }
         else{
             throw new InStrNullException();
@@ -53,7 +53,7 @@ public class Core {
         byte bins[] = new byte[1000];//最后返回的装有二进制码的字节数组
         int counter = 0;//ｂｉｎｓ数组的下标指针
         for(int i =inStr.getBytes()[0];i<inStr.getBytes()[0]+100;i++) {
-            int temp[] = SHA1.getAfterSHA1(inStr+i);
+            int temp[] = SHA1.getAfterSHA1(inStr + i);
             for (int aTemp : temp) {
                 bins[counter] = (byte) (aTemp%2);//根据aTemp的奇偶性填充１或０
                 counter++;
@@ -83,4 +83,13 @@ public class Core {
         }
         return results;
     }
+
+    public String getMemoryable() {
+        return memoryable;
+    }
+
+    public void setMemoryable(String memoryable) {
+        this.memoryable = memoryable;
+    }
+
 }

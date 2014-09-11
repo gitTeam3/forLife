@@ -1,14 +1,14 @@
-package com.gitteam3.forlife.psdMonitor.encryptionCore;
+package com.gitteam3.forlife.psdMonitor.encryptionCore.tools;
 
 /**
  * Author: zihao
  * Summary:二进制的数组的翻译类
  * Date: 14-9-8
  */
-public class Translator {
+class Converter {
 
     private Object[] bins;//需要翻译的二进制数组
-    public Translator(Object[] bins){
+    public Converter(Object[] bins){
         this.bins = bins;
     }
     /**
@@ -53,4 +53,5 @@ public class Translator {
     public void setBins(Object[] bins) {
         this.bins = bins;
     }
+
 }

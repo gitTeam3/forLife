@@ -1,4 +1,4 @@
-package com.gitteam3.forlife.psdMonitor.encryptionCore;
+package com.gitteam3.forlife.psdMonitor.encryptionCore.tools;
 
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
@@ -8,7 +8,7 @@ import java.security.NoSuchAlgorithmException;
  * Summary: SHA-1加密工具
  * Date: 14-9-6
  */
-public class SHA1 {
+class SHA1 {
 
     public static int[] getAfterSHA1(String inStr){
         int outBytes[] = null;//��������������ֽ�����

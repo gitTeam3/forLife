@@ -1,4 +1,4 @@
-package com.gitteam3.forlife.psdMonitor.encryptionCore;
+package com.gitteam3.forlife.psdMonitor.encryptionCore.tools;
 /**
  * Author: zihao
  * Summary:���ڼ���Уɵ�ֵ
